@@ -20,6 +20,9 @@ connectDB();
 //Initialize express
 const app = express();
 
+//Body Parser
+app.use(express.json());
+
 //mount custom logger middleware
 // app.use(logger);
 
